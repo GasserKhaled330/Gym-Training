@@ -5,6 +5,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .logo {
@@ -13,7 +14,6 @@
 }
 
 h1 {
-    font-family: 'Roboto Mono', monospace;
     color: #B7B6C1;
     text-decoration: underline;
 }
