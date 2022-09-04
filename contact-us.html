@@ -6,56 +6,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact-us.css">
     <title>Contact Us</title>
 </head>
 
 <body>
-    <nav>
-        <div>
-            <img src="images/gym-logo.png" alt="Training.com Logo" class="logo">
-        </div>
-        <div class="nav-links">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="training-splits.html">Gym Training Splits</a></li>
-                <li><a href="contact-us.html">Contact Us</a></li>
-                <li><a href="About-us.html">About Us</a></li>
-            </ul>
+
+    <nav class="navbar sticky-top">
+        <div class="container">
+            <div>
+                <a href="index.html"><span class="logo">Traning.com</span></a>
+            </div>
+            <div class="nav-links">
+                <ul class="nobullets">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="training-splits.html">Gym Training Splits</a></li>
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                    <li><a href="About-us.html">About Us</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
+    <div class="page-content">
+        <div class="page-container">
+            <div class="heading">
+                <h2>Contact us</h2>
+                <p>Got a question? we'd love to hear from you. send us message and we'll <br> respond as soon as
+                    possible</p>
+            </div>
+            <form action="index.html" method="post">
+                <div>
+                    <label for="problem">what can we help you with?</label>
+                    <input type="text" name="what-user-need" id="problem">
+                </div>
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" name="user-name" id="name">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="text" name="emaill-address" id="email">
+                </div>
+                <div>
+                    <label for="message">Message</label>
+                    <textarea name="message" id="" cols="20" rows="5"
+                        style="resize: none; border: 2px solid #8c92ac;"></textarea>
+                </div>
+                <div>
+                    <button type="submit" class="btn">Send</button>
+                </div>
+            </form>
+        </div>
+    </div>
 
-    <h2>Contact us</h2>
-    <p>Got a question? we'd love to hear from you. send us message and we'll respond as soon as possible</p>
-
-    <form action="index.html" method="post">
-        <div>
-            <label for="problem">what can we help you with</label>
-            <input type="text" name="what-user-need" id="problem">
-        </div>
-        <div>
-            <label for="name">Name</label>
-            <input type="text" name="user-name" id="name">
-        </div>
-        <div>
-            <label for="email">Email</label>
-            <input type="text" name="emaill-address" id="email">
-        </div>
-        <div>
-            <label for="message">Message</label>
-            <input type="text" name="user-message" id="message">
-        </div>
-        <div>
-            <button type="submit">Send</button>
-        </div>
-    </form>
     <footer class="footer">
+        <p>Developed by <a href="https://github.com/GasserKhaled330">Gasser Khaled</a> With
+            <span class="heart">&#10084;</span>
+        </p>
         <ul class="footer-links">
             <li><a href="index.html">Home</a></li>
             <li><a href="training-splits.html">Gym Training Splits</a></li>
             <li><a href="contact-us.html">Contact Us</a></li>
             <li><a href="About-us.html">About Us</a></li>
         </ul>
-        <p>Developed by <a href="https://github.com/GasserKhaled330">Gasser Khaled</a> With &#10084;</p>
+
     </footer>
 </body>
 
